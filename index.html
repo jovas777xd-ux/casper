@@ -87,11 +87,13 @@ nav>a{padding:10px 13px;border-radius:9px;background:#7753c51c;border:1px solid 
 .inicio-foto{width:min(calc(100% - 64px),480px);margin:0 auto 38px;position:relative;z-index:1;border:1px solid #78f5ff99;border-radius:22px;overflow:hidden;background:#080813;box-shadow:0 0 0 7px #93dcff0d,0 0 0 9px #a978ee44,0 22px 70px #000b,0 0 45px #19d7ff44}.inicio-foto img{display:block;width:100%;height:min(62vh,500px);object-fit:contain;object-position:center;background:#080813}.inicio-foto figcaption{padding:14px 20px;background:linear-gradient(90deg,#071523,#321255,#071523);color:#bdf8ff;text-align:center;font-size:12px;font-weight:900;letter-spacing:3px}.inicio-foto figcaption span{color:#f69aff;margin:0 8px}@media(max-width:600px){.inicio-foto{width:min(calc(100% - 32px),400px);margin-bottom:28px;border-radius:16px}.inicio-foto img{height:min(58vh,440px)}.inicio-foto figcaption{font-size:10px;letter-spacing:2px;padding:13px 10px}}</style></head><body><canvas id="storm-lightning" aria-hidden="true"></canvas><canvas id="entry-smoke" aria-hidden="true"></canvas><div class="ghost-frame" aria-hidden="true"><i></i><i></i><i></i></div><header><div class="topline"></div><div class="wrap nav"><a class="brand" href="#inicio"><img src="logo.jpeg" alt="Logo Casper"><span><strong>CASPER</strong><small>PIROTECNIA</small></span></a><nav aria-label="Navegación"><a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#seguridad">Seguridad</a><a href="#cotizacion">Cotización</a><button class="btn blue" id="openCart">Mi pedido <span class="count" id="count">0</span></button></nav></div></header>
 <main><section class="hero" id="inicio"><div class="spectral-stars" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span></div><div class="wrap hero-inner"><div><p class="eyebrow"><span aria-hidden="true">✧</span> Artesanías pirotécnicas</p><h1>CASPER</h1><p class="tagline">DALE COLOR<br>A LA NOCHE.</p><p class="intro">Una celebración llena de luz y color. Encuentra tus favoritos y prepara tu pedido con Casper.</p><div class="actions"><a class="btn red" href="#catalogo">VER CATÁLOGO <span>↗</span></a><a class="btn" href="#nosotros">CONÓCENOS</a></div><div class="hero-spells"><span>✦ LUZ QUE SORPRENDE</span><span>✧ COLOR QUE SE SIENTE</span></div></div><div class="spectral-stage"><div class="stage-orbit" aria-hidden="true"></div><span class="stage-spark spark-a" aria-hidden="true">✦</span><span class="stage-spark spark-b" aria-hidden="true">✧</span><span class="stage-spark spark-c" aria-hidden="true">✦</span><div class="crest"><img src="logo.jpeg" alt="Casper con luces de colores neón" width="1132" height="1389" fetchpriority="high"><p class="crest-caption">PIROTECNIA CASPER</p></div><div class="stage-cloud" aria-hidden="true"></div></div></div><figure class="inicio-foto"><img src="inicio.jpeg" alt="Puesto de Pirotecnia Casper, con sus figuras artesanales y la bandera de México" loading="eager" fetchpriority="high"><figcaption><span>✦</span> CASPER, TRADICIÓN Y COLOR <span>✦</span></figcaption></figure></section>
 <div class="ticker"><div class="wrap"><span>JUGUETERÍA <b>✦</b></span><span>BATERÍAS <b>✦</b></span><span>QUE BRILLE LA NOCHE <b>✦</b></span></div></div>
-<section class="catalog wrap" id="catalogo"><div class="section-head"><div><p class="kicker">ELIGE · COMBINA · CELEBRA</p><h2>NUESTRO CATÁLOGO</h2></div><p>Elige tus favoritos y agrega las cantidades que necesitas a tu pedido.</p></div><div class="tools"><div class="tabs" aria-label="Categorías"><button class="tab" data-category="Juguetería" aria-pressed="true">Juguetería</button><button class="tab" data-category="Baterías" aria-pressed="false">Baterías</button><button class="tab" data-category="Lluvia fría" aria-pressed="false">Lluvia fría</button><button class="tab" data-category="Toritos" aria-pressed="false">Toritos</button></div><input type="search" id="search" placeholder="Buscar un producto…" aria-label="Buscar producto"></div><p class="demo-note">PRECIOS TEMPORALES DE EJEMPLO EN MXN · Confirma los precios reales antes de comprar.</p><p class="results" id="results" aria-live="polite"></p><div class="grid" id="products"></div><p id="empty" hidden>No encontramos productos en esta categoría con ese nombre.</p></section>
 <section class="catalog wrap" id="catalogo"><div class="section-head"><div><p class="kicker">ELIGE · COMBINA · CELEBRA</p><h2>NUESTRO CATÁLOGO</h2></div><p>Elige tus favoritos y agrega las cantidades que necesitas a tu pedido.</p></div><div class="tools"><div class="tabs" aria-label="Categorías"><button class="tab" data-category="Juguetería" aria-pressed="true">Juguetería</button><button class="tab" data-category="Baterías" aria-pressed="false">Baterías</button><button class="tab" data-category="Lluvia fría" aria-pressed="false">Lluvia fría</button><button class="tab" data-category="Toritos" aria-pressed="false">Toritos</button></div><input type="search" id="search" placeholder="Buscar un producto…" aria-label="Buscar producto"></div><p class="demo-note">Algunos precios son de ejemplo; los marcados como confirmados corresponden a los precios indicados. Confirma disponibilidad antes de pedir.</p><p class="results" id="results" aria-live="polite"></p><div class="grid" id="products"></div><p id="empty" hidden>No encontramos productos en esta categoría con ese nombre.</p></section>
-<section class="local" id="nosotros"><div class="wrap local-grid"><div class="neon-art" aria-hidden="true"><span>LUZ.</span><span>COLOR.</span><span>CASPER.</span></div><div><p class="kicker">EL COLOR ES PARTE DE LA FIESTA</p><h2>PREPARA UN<br>MOMENTO BRILLANTE.</h2><p>Explora juguetería y baterías, combina tus favoritos y lleva tu selección al carrito. Consulta los detalles de tu evento desde la sección de cotización.</p><a class="btn" href="#catalogo">ENCUENTRA TUS FAVORITOS ↗</a></div></div><figure class="inicio-foto"><img src="inicio.jpeg" alt="Puesto de Pirotecnia Casper, con sus figuras artesanales y la bandera de México" loading="eager" fetchpriority="high"><figcaption><span>✦</span> CASPER, TRADICIÓN Y COLOR <span>✦</span></figcaption></figure></section><section class="safety" id="seguridad"><div class="wrap"><p class="kicker">CELEBRA CON RESPONSABILIDAD</p><h2>SEGURIDAD PRIMERO</h2><div class="safety-grid"><article><b>01</b><h3>Lee las indicaciones</h3><p>Respeta las instrucciones y advertencias del fabricante de cada producto.</p></article><article><b>02</b><h3>Cuida a los demás</h3><p>La pirotecnia debe ser manejada por adultos. Mantén a niños y mascotas alejados.</p></article><article><b>03</b><h3>Elige el lugar adecuado</h3><p>Respeta las restricciones de tu localidad y las condiciones del espacio donde se realizará el evento.</p></article></div></div><figure class="inicio-foto"><img src="inicio.jpeg" alt="Puesto de Pirotecnia Casper, con sus figuras artesanales y la bandera de México" loading="eager" fetchpriority="high"><figcaption><span>✦</span> CASPER, TRADICIÓN Y COLOR <span>✦</span></figcaption></figure></section><section class="quote" id="cotizacion"><div class="wrap quote-grid"><div><p class="kicker">CUÉNTANOS TU IDEA</p><h2>COTIZA TU<br>CELEBRACIÓN</h2><p>Completa tus datos y prepara una consulta con los productos de tu pedido.</p></div><form id="quoteForm"><label>Tu nombre<input name="nombre" required autocomplete="name" placeholder="¿Cómo te llamas?"></label><label>Fecha del evento<input name="fecha" type="date" required></label><label>Tipo de evento<select name="tipo" required><option value="">Selecciona una opción</option><option>Boda</option><option>XV años</option><option>Cumpleaños</option><option>Revelación de género</option><option>Fiesta patronal</option><option>Evento empresarial</option><option>Otro</option></select></label><label>Lugar del evento<input name="lugar" required placeholder="Ciudad o municipio"></label><label>Descripción<textarea name="detalles" rows="4" required placeholder="Cuéntanos qué tienes en mente para tu evento"></textarea></label><label>Presupuesto aproximado (MXN)<input name="presupuesto" type="number" min="1" step="1" inputmode="numeric" required placeholder="Ej. 5000"></label><label>Enviar cotización a<select name="asesor" required><option value="522202150261">Abraham · 220 215 0261</option><option value="525631418924">Johana · 563 141 8924</option></select></label><button class="btn blue" type="submit">COTIZAR POR WHATSAPP ↗</button><p class="order-note">Se abrirá la conversación de la persona elegida con tu cotización lista. Pulsa Enviar en WhatsApp.</p></form></div></section></main><footer><div class="wrap"><span>CASPER · ARTESANÍAS PIROTÉCNICAS</span><span>Consulta precio y disponibilidad al realizar tu pedido.</span></div></footer>
+
+<section class="local" id="nosotros"><div class="wrap local-grid"><div class="neon-art" aria-hidden="true"><span>LUZ.</span><span>COLOR.</span><span>CASPER.</span></div><div><p class="kicker">EL COLOR ES PARTE DE LA FIESTA</p><h2>PREPARA UN<br>MOMENTO BRILLANTE.</h2><p>Explora juguetería y baterías, combina tus favoritos y lleva tu selección al carrito. Consulta los detalles de tu evento desde la sección de cotización.</p><a class="btn" href="#catalogo">ENCUENTRA TUS FAVORITOS ↗</a></div></div></section><section class="safety" id="seguridad"><div class="wrap"><p class="kicker">CELEBRA CON RESPONSABILIDAD</p><h2>SEGURIDAD PRIMERO</h2><div class="safety-grid"><article><b>01</b><h3>Lee las indicaciones</h3><p>Respeta las instrucciones y advertencias del fabricante de cada producto.</p></article><article><b>02</b><h3>Cuida a los demás</h3><p>La pirotecnia debe ser manejada por adultos. Mantén a niños y mascotas alejados.</p></article><article><b>03</b><h3>Elige el lugar adecuado</h3><p>Respeta las restricciones de tu localidad y las condiciones del espacio donde se realizará el evento.</p></article></div></div></section><section class="quote" id="cotizacion"><div class="wrap quote-grid"><div><p class="kicker">CUÉNTANOS TU IDEA</p><h2>COTIZA TU<br>CELEBRACIÓN</h2><p>Completa tus datos y prepara una consulta con los productos de tu pedido.</p></div><form id="quoteForm"><label>Tu nombre<input name="nombre" required autocomplete="name" placeholder="¿Cómo te llamas?"></label><label>Fecha del evento<input name="fecha" type="date" required></label><label>Tipo de evento<select name="tipo" required><option value="">Selecciona una opción</option><option>Boda</option><option>XV años</option><option>Cumpleaños</option><option>Revelación de género</option><option>Fiesta patronal</option><option>Evento empresarial</option><option>Otro</option></select></label><label>Lugar del evento<input name="lugar" required placeholder="Ciudad o municipio"></label><label>Descripción<textarea name="detalles" rows="4" required placeholder="Cuéntanos qué tienes en mente para tu evento"></textarea></label><label>Presupuesto aproximado (MXN)<input name="presupuesto" type="number" min="1" step="1" inputmode="numeric" required placeholder="Ej. 5000"></label><label>Enviar cotización a<select name="asesor" required><option value="522202150261">Abraham · 220 215 0261</option><option value="525631418924">Johana · 563 141 8924</option></select></label><button class="btn blue" type="submit">COTIZAR POR WHATSAPP ↗</button><p class="order-note">Se abrirá la conversación de la persona elegida con tu cotización lista. Pulsa Enviar en WhatsApp.</p></form></div></section></main><footer><div class="wrap"><span>CASPER · ARTESANÍAS PIROTÉCNICAS</span><span>Consulta precio y disponibilidad al realizar tu pedido.</span></div></footer>
+
+
 <dialog id="cart"><div class="dialog-head"><div><p class="cart-kicker">CASPER · TU SELECCIÓN</p><h2>MI CARRITO</h2></div><button class="close" id="closeCart" aria-label="Cerrar pedido">×</button></div><p class="cart-intro">Todo listo para darle color a tu celebración.</p><div id="orderItems"></div><div class="cart-checkout"><p class="summary" id="total" aria-live="polite"></p><button class="clear-cart" id="clearCart" type="button">Vaciar carrito</button><p class="demo-note">Total de ejemplo con precios temporales; no es una cotización definitiva.</p><label class="recipient-label" for="orderRecipient">Enviar pedido a</label><select id="orderRecipient" class="recipient-select"><option value="522202150261">Abraham · 220 215 0261</option><option value="525631418924">Johana · 563 141 8924</option></select><button class="btn blue send" id="sendOrder">ENVIAR PEDIDO POR WHATSAPP ↗</button><p class="order-note">Elige Abraham o Johana. WhatsApp abrirá su conversación con tu pedido listo; pulsa Enviar para compartirlo.</p></div></dialog><div class="toast" id="toast" role="status" hidden></div>
-<dialog id="cart"><div class="dialog-head"><div><p class="cart-kicker">CASPER · TU SELECCIÓN</p><h2>MI CARRITO</h2></div><button class="close" id="closeCart" aria-label="Cerrar pedido">×</button></div><p class="cart-intro">Todo listo para darle color a tu celebración.</p><div id="orderItems"></div><div class="cart-checkout"><p class="summary" id="total" aria-live="polite"></p><button class="clear-cart" id="clearCart" type="button">Vaciar carrito</button><p class="demo-note">Los precios marcados como confirmados corresponden a los importes indicados; los demás son ejemplos. Confirma disponibilidad antes de cotizar.</p><label class="recipient-label" for="orderRecipient">Enviar pedido a</label><select id="orderRecipient" class="recipient-select"><option value="522202150261">Abraham · 220 215 0261</option><option value="525631418924">Johana · 563 141 8924</option></select><button class="btn blue send" id="sendOrder">ENVIAR PEDIDO POR WHATSAPP ↗</button><p class="order-note">Elige Abraham o Johana. WhatsApp abrirá su conversación con tu pedido listo; pulsa Enviar para compartirlo.</p></div></dialog><div class="toast" id="toast" role="status" hidden></div>
+
 <script>
 // Precios de ejemplo en MXN. Para activar un espacio: completa name, image y price; cambia placeholder a false.
 const products=[
@@ -771,6 +773,14 @@ const products=[
     "id": "caramelomediano.jpeg",
     "image": "caramelomediano.jpeg",
     "name": "Caramelo Mediano",
+    "category": "Juguetería",
+    "price": 55,
+    "placeholder": false
+  },
+  {
+    "id": "caramelomediano.jpeg",
+    "image": "caramelomediano.jpeg",
+    "name": "Cueton de Luz",
     "category": "Juguetería",
     "price": 55,
     "placeholder": false
@@ -1648,6 +1658,14 @@ const products=[
     "placeholder": false
   },
   {
+    "id": "toritos.jpeg",
+    "image": "toritos.jpeg",
+    "name": "Toritos",
+    "category": "Toritos",
+    "price": 50,
+    "placeholder": false
+  },
+  {
     "id": "toroextragrande.jpeg",
     "image": "toroextragrande.jpeg",
     "name": "Toro Extra Grande",
@@ -1685,6 +1703,24 @@ const products=[
     "name": "Toro Chico",
     "category": "Toritos",
     "price": 450,
+    "placeholder": false
+  },
+  {
+    "id": "cuetondeluz.jpeg",
+    "image": "cuetondeluz.jpeg",
+    "name": "Cuetón de Luz",
+    "category": "Toritos",
+    "price": 250,
+    "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "cuetondetrueno.jpeg",
+    "image": "cuetondetrueno.jpeg",
+    "name": "Cuetón de Trueno",
+    "category": "Toritos",
+    "price": 180,
+    "priceConfirmed": true,
     "placeholder": false
   },
   {
@@ -1863,7 +1899,113 @@ const products=[
     "name": "Trabuco Súper",
     "category": "Juguetería",
     "price": 180,
+    "id": "huevodecodorniz.jpeg",
+    "image": "huevodecodorniz.jpeg",
+    "name": "Huevo de Codorniz",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "varadechiflador.jpeg",
+    "image": "varadechiflador.jpeg",
+    "name": "Vara de Chiflador",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "garramini.jpeg",
+    "image": "garramini.jpeg",
+    "name": "Garra Mini",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "garrasuper.jpeg",
+    "image": "garrasuper.jpeg",
+    "name": "Garra Súper",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "caradediablo.jpeg",
+    "image": "caradediablo.jpeg",
+    "name": "Cara de Diablo",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "trabucosuper.jpeg",
+    "image": "trabucosuper.jpeg",
+    "name": "Trabuco Súper",
+    "category": "Juguetería",
+    "price": 180,
+    "id": "huevodecodorniz.jpeg",
+    "image": "huevodecodorniz.jpeg",
+    "name": "Huevo de Codorniz",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "varadechiflador.jpeg",
+    "image": "varadechiflador.jpeg",
+    "name": "Vara de Chiflador",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "garramini.jpeg",
+    "image": "garramini.jpeg",
+    "name": "Garra Mini",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "garrasuper.jpeg",
+    "image": "garrasuper.jpeg",
+    "name": "Garra Súper",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "caradediablo.jpeg",
+    "image": "caradediablo.jpeg",
+    "name": "Cara de Diablo",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "trabucosuper.jpeg",
+    "image": "trabucosuper.jpeg",
+    "name": "Trabuco Súper",
+    "category": "Juguetería",
+    "price": 180,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "palomadel4.jpeg",
+    "image": "palomadel4.jpeg",
+    "name": "Paloma del 4",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "palomadel4.jpeg",
+    "image": "palomadel4.jpeg",
+    "name": "Paloma del 4",
+    "category": "Juguetería",
+    "price": 50,
     "placeholder": false
   },
   {
@@ -1881,7 +2023,39 @@ const products=[
     "name": "Paloma Vampira",
     "category": "Juguetería",
     "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "palomavampira.jpeg",
+    "image": "palomavampira.jpeg",
+    "name": "Paloma Vampira",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "palomavampira.jpeg",
+    "image": "palomavampira.jpeg",
+    "name": "Paloma Vampira",
+    "category": "Juguetería",
+    "price": 50,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "palomitadel3.jpeg",
+    "image": "palomitadel3.jpeg",
+    "name": "Palomita del 3",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "palomitadel3.jpeg",
+    "image": "palomitadel3.jpeg",
+    "name": "Palomita del 3",
+    "category": "Juguetería",
+    "price": 50,
     "placeholder": false
   },
   {
@@ -1899,7 +2073,39 @@ const products=[
     "name": "Palomita del 2",
     "category": "Juguetería",
     "price": 60,
+    "placeholder": false
+  },
+  {
+    "id": "palomitadel2.jpeg",
+    "image": "palomitadel2.jpeg",
+    "name": "Palomita del 2",
+    "category": "Juguetería",
+    "price": 60,
+    "placeholder": false
+  },
+  {
+    "id": "palomitadel2.jpeg",
+    "image": "palomitadel2.jpeg",
+    "name": "Palomita del 2",
+    "category": "Juguetería",
+    "price": 60,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "palomitadel1.jpeg",
+    "image": "palomitadel1.jpeg",
+    "name": "Palomita del 1",
+    "category": "Juguetería",
+    "price": 40,
+    "placeholder": false
+  },
+  {
+    "id": "palomitadel1.jpeg",
+    "image": "palomitadel1.jpeg",
+    "name": "Palomita del 1",
+    "category": "Juguetería",
+    "price": 40,
     "placeholder": false
   },
   {
@@ -1917,7 +2123,39 @@ const products=[
     "name": "Paloma Súper",
     "category": "Juguetería",
     "price": 150,
+    "placeholder": false
+  },
+  {
+    "id": "palomasuper.jpeg",
+    "image": "palomasuper.jpeg",
+    "name": "Paloma Súper",
+    "category": "Juguetería",
+    "price": 150,
+    "placeholder": false
+  },
+  {
+    "id": "palomasuper.jpeg",
+    "image": "palomasuper.jpeg",
+    "name": "Paloma Súper",
+    "category": "Juguetería",
+    "price": 150,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "lafusca.jpeg",
+    "image": "lafusca.jpeg",
+    "name": "La Fusca",
+    "category": "Juguetería",
+    "price": 100,
+    "placeholder": false
+  },
+  {
+    "id": "lafusca.jpeg",
+    "image": "lafusca.jpeg",
+    "name": "La Fusca",
+    "category": "Juguetería",
+    "price": 100,
     "placeholder": false
   },
   {
@@ -1935,7 +2173,39 @@ const products=[
     "name": "Carlota",
     "category": "Juguetería",
     "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "carlota.jpeg",
+    "image": "carlota.jpeg",
+    "name": "Carlota",
+    "category": "Juguetería",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "carlota.jpeg",
+    "image": "carlota.jpeg",
+    "name": "Carlota",
+    "category": "Juguetería",
+    "price": 50,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "cañonbebe.jpeg",
+    "image": "cañonbebe.jpeg",
+    "name": "Cañón Bebé",
+    "category": "Juguetería",
+    "price": 100,
+    "placeholder": false
+  },
+  {
+    "id": "cañonbebe.jpeg",
+    "image": "cañonbebe.jpeg",
+    "name": "Cañón Bebé",
+    "category": "Juguetería",
+    "price": 100,
     "placeholder": false
   },
   {
@@ -1953,7 +2223,39 @@ const products=[
     "name": "Casper",
     "category": "Juguetería",
     "price": 80,
+    "placeholder": false
+  },
+  {
+    "id": "casper.jpeg",
+    "image": "casper.jpeg",
+    "name": "Casper",
+    "category": "Juguetería",
+    "price": 80,
+    "placeholder": false
+  },
+  {
+    "id": "casper.jpeg",
+    "image": "casper.jpeg",
+    "name": "Casper",
+    "category": "Juguetería",
+    "price": 80,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "mexicano.jpeg",
+    "image": "mexicano.jpeg",
+    "name": "Mexicano",
+    "category": "Juguetería",
+    "price": 140,
+    "placeholder": false
+  },
+  {
+    "id": "mexicano.jpeg",
+    "image": "mexicano.jpeg",
+    "name": "Mexicano",
+    "category": "Juguetería",
+    "price": 140,
     "placeholder": false
   },
   {
@@ -1970,8 +2272,32 @@ const products=[
     "image": "velasnormales.jpeg",
     "name": "Velas Normales",
     "category": "Lluvia fría",
+    "id": "velasnormales.jpeg",
+    "image": "velasnormales.jpeg",
+    "name": "Velas Normales",
+    "category": "Lluvia fría",
+    "id": "velasnormales.jpeg",
+    "image": "velasnormales.jpeg",
+    "name": "Velas Normales",
+    "category": "Lluvia fría",
     "price": 650,
     "priceConfirmed": true,
+    "priceUnit": "millar",
+    "placeholder": false
+  },
+  {
+    "id": "velaspersonalizadas.jpeg",
+    "image": "velaspersonalizadas.jpeg",
+    "name": "Velas Personalizadas",
+    "category": "Lluvia fría",
+    "priceUnit": "millar",
+    "placeholder": false
+  },
+  {
+    "id": "velaspersonalizadas.jpeg",
+    "image": "velaspersonalizadas.jpeg",
+    "name": "Velas Personalizadas",
+    "category": "Lluvia fría",
     "priceUnit": "millar",
     "placeholder": false
   },
@@ -1998,8 +2324,54 @@ const products=[
     "image": "bateriarevelacion9tiros.jpeg",
     "name": "Batería Revelación 9 Tiros",
     "category": "Lluvia fría",
+    "priceUnit": "millar",
+    "placeholder": false
+  },
+  {
+    "id": "abanicodehumo.jpeg",
+    "image": "abanicodehumo.jpeg",
+    "name": "Abanico de Humo",
+    "category": "Lluvia fría",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "bateriarevelacion9tiros.jpeg",
+    "image": "bateriarevelacion9tiros.jpeg",
+    "name": "Batería Revelación 9 Tiros",
+    "category": "Lluvia fría",
+    "priceUnit": "millar",
+    "placeholder": false
+  },
+  {
+    "id": "abanicodehumo.jpeg",
+    "image": "abanicodehumo.jpeg",
+    "name": "Abanico de Humo",
+    "category": "Lluvia fría",
+    "price": 50,
+    "placeholder": false
+  },
+  {
+    "id": "bateriarevelacion9tiros.jpeg",
+    "image": "bateriarevelacion9tiros.jpeg",
+    "name": "Batería Revelación 9 Tiros",
+    "category": "Lluvia fría",
     "price": 600,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "bateriarevelacion25.jpeg",
+    "image": "bateriarevelacion25.jpeg",
+    "name": "Batería Revelación 25 Tiros",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "bateriarevelacion25.jpeg",
+    "image": "bateriarevelacion25.jpeg",
+    "name": "Batería Revelación 25 Tiros",
+    "category": "Lluvia fría",
     "placeholder": false
   },
   {
@@ -2016,8 +2388,36 @@ const products=[
     "image": "chisperorafaga.jpeg",
     "name": "Chispero Ráfaga",
     "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperorafaga.jpeg",
+    "image": "chisperorafaga.jpeg",
+    "name": "Chispero Ráfaga",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperorafaga.jpeg",
+    "image": "chisperorafaga.jpeg",
+    "name": "Chispero Ráfaga",
+    "category": "Lluvia fría",
     "price": 50,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "tirodepapelrevelacion.jpeg",
+    "image": "tirodepapelrevelacion.jpeg",
+    "name": "Tiro de Papel Revelación",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "tirodepapelrevelacion.jpeg",
+    "image": "tirodepapelrevelacion.jpeg",
+    "name": "Tiro de Papel Revelación",
+    "category": "Lluvia fría",
     "placeholder": false
   },
   {
@@ -2034,8 +2434,36 @@ const products=[
     "image": "chisperoprofesionalgrandedetrestiempos.jpeg",
     "name": "Chispero Profesional Grande de Tres Tiempos",
     "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesionalgrandedetrestiempos.jpeg",
+    "image": "chisperoprofesionalgrandedetrestiempos.jpeg",
+    "name": "Chispero Profesional Grande de Tres Tiempos",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesionalgrandedetrestiempos.jpeg",
+    "image": "chisperoprofesionalgrandedetrestiempos.jpeg",
+    "name": "Chispero Profesional Grande de Tres Tiempos",
+    "category": "Lluvia fría",
     "price": 80,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesionalgrandededostiempos.jpeg",
+    "image": "chisperoprofesionalgrandededostiempos.jpeg",
+    "name": "Chispero Profesional Grande de Dos Tiempos",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesionalgrandededostiempos.jpeg",
+    "image": "chisperoprofesionalgrandededostiempos.jpeg",
+    "name": "Chispero Profesional Grande de Dos Tiempos",
+    "category": "Lluvia fría",
     "placeholder": false
   },
   {
@@ -2052,6 +2480,20 @@ const products=[
     "image": "chisperoprofesionalgrande.jpeg",
     "name": "Chispero Profesional Grande",
     "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesionalgrande.jpeg",
+    "image": "chisperoprofesionalgrande.jpeg",
+    "name": "Chispero Profesional Grande",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesionalgrande.jpeg",
+    "image": "chisperoprofesionalgrande.jpeg",
+    "name": "Chispero Profesional Grande",
+    "category": "Lluvia fría",
     "price": 50,
     "priceConfirmed": true,
     "placeholder": false
@@ -2061,8 +2503,36 @@ const products=[
     "image": "chisperoprofesional.jpeg",
     "name": "Chispero Profesional",
     "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesional.jpeg",
+    "image": "chisperoprofesional.jpeg",
+    "name": "Chispero Profesional",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoprofesional.jpeg",
+    "image": "chisperoprofesional.jpeg",
+    "name": "Chispero Profesional",
+    "category": "Lluvia fría",
     "price": 35,
     "priceConfirmed": true,
+    "placeholder": false
+  },
+  {
+    "id": "chisperoeconomico.jpeg",
+    "image": "chisperoeconomico.jpeg",
+    "name": "Chispero Económico",
+    "category": "Lluvia fría",
+    "placeholder": false
+  },
+  {
+    "id": "chisperoeconomico.jpeg",
+    "image": "chisperoeconomico.jpeg",
+    "name": "Chispero Económico",
+    "category": "Lluvia fría",
     "placeholder": false
   },
   {
@@ -2085,11 +2555,8 @@ const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase
 const selected=()=>products.filter(p=>!p.placeholder&&cart[p.id]);
 const totalPrice=()=>selected().reduce((sum,p)=>sum+p.price*cart[p.id],0);
 function change(id,delta){const p=products.find(p=>p.id===id);if(!p||p.placeholder)return;const qty=Math.max(0,Math.min(999,(cart[id]||0)+delta));if(qty)cart[id]=qty;else delete cart[id];sync()}
-function render(){const list=products.filter(p=>p.category===category&&normalize(p.name).includes(normalize($('search').value)));$('products').replaceChildren();$('results').textContent=list.filter(p=>!p.placeholder).length+' PRODUCTOS + '+list.filter(p=>p.placeholder).length+' ESPACIOS · '+category.toUpperCase();$('empty').hidden=!!list.length;for(const p of list){const el=document.createElement('article');el.className='card'+(p.placeholder?' placeholder':'');const photo=p.placeholder?'<div>＋<small>PRÓXIMAMENTE</small></div>':'<img src="'+p.image+'" alt="'+p.name+'" loading="lazy">';el.innerHTML='<div class="photo"><span class="badge">'+p.category+'</span>'+photo+'</div><div class="card-body"><h3>'+p.name+'</h3><div class="card-bottom"><span class="price">'+(p.placeholder?'—<small>Por agregar</small>':money(p.price)+'<small>MXN · Precio de ejemplo</small>')+'</span><button class="add" type="button" '+(p.placeholder?'disabled':'')+'>'+(p.placeholder?'Próximamente':'Agregar +')+'</button></div></div>';if(!p.placeholder)el.querySelector('button').onclick=()=>{change(p.id,1);notice(p.name+' agregado')};$('products').append(el)}}
 function render(){const list=products.filter(p=>p.category===category&&normalize(p.name).includes(normalize($('search').value)));$('products').replaceChildren();$('results').textContent=list.filter(p=>!p.placeholder).length+' PRODUCTOS + '+list.filter(p=>p.placeholder).length+' ESPACIOS · '+category.toUpperCase();$('empty').hidden=!!list.length;for(const p of list){const el=document.createElement('article');el.className='card'+(p.placeholder?' placeholder':'');const photo=p.placeholder?'<div>＋<small>PRÓXIMAMENTE</small></div>':'<img src="'+p.image+'" alt="'+p.name+'" loading="lazy">';el.innerHTML='<div class="photo"><span class="badge">'+p.category+'</span>'+photo+'</div><div class="card-body"><h3>'+p.name+'</h3><div class="card-bottom"><span class="price">'+(p.placeholder?'—<small>Por agregar</small>':money(p.price)+'<small>MXN'+(p.priceConfirmed?' · Precio confirmado':' · Precio de ejemplo')+(p.priceUnit?' · por '+p.priceUnit:'')+'</small>')+'</span><button class="add" type="button" '+(p.placeholder?'disabled':'')+'>'+(p.placeholder?'Próximamente':'Agregar +')+'</button></div></div>';if(!p.placeholder)el.querySelector('button').onclick=()=>{change(p.id,1);notice(p.name+' agregado')};$('products').append(el)}}
 let timer;function notice(msg){$('toast').textContent=msg;$('toast').hidden=false;clearTimeout(timer);timer=setTimeout(()=>$('toast').hidden=true,2200)}
-function sync(){try{localStorage.setItem('casper-pedido-v1',JSON.stringify(cart))}catch{}const items=selected(),units=items.reduce((sum,p)=>sum+cart[p.id],0);$('count').textContent=units;$('total').innerHTML='<small>'+units+' unidades</small>Total de ejemplo: '+money(totalPrice())+' MXN';$('sendOrder').disabled=!units;$('clearCart').disabled=!units;$('orderItems').replaceChildren();if(!units){$('orderItems').innerHTML='<div class="cart-empty"><span aria-hidden="true">✦</span><h3>Tu celebración empieza aquí</h3><p>Agrega tus favoritos del catálogo para armar tu pedido.</p><button class="btn blue" id="continueShopping">EXPLORAR CATÁLOGO ↗</button></div>';$('continueShopping').onclick=()=>{$('cart').close();document.getElementById('catalogo').scrollIntoView({behavior:"smooth"})};return}for(const p of items){const row=document.createElement('div');row.className='order-row';row.innerHTML='<img class="cart-thumb" src="'+p.image+'" alt="" width="74" height="84"><div class="line-info"><strong>'+p.name+'</strong><small>'+money(p.price)+' MXN por unidad</small><small class="line-total">Subtotal: '+money(p.price*cart[p.id])+'</small></div><div class="line-controls"><div class="qty"><button aria-label="Quitar uno de '+p.name+'">−</button><span>'+cart[p.id]+'</span><button aria-label="Agregar uno de '+p.name+'">+</button></div><button class="remove">Eliminar</button></div>';const buttons=row.querySelectorAll('button');buttons[0].onclick=()=>change(p.id,-1);buttons[1].onclick=()=>change(p.id,1);buttons[2].onclick=()=>{delete cart[p.id];sync()};$('orderItems').append(row)}}
-function orderText(){return selected().map(p=>cart[p.id]+' × '+p.name+' | '+money(p.price)+' c/u | Subtotal: '+money(p.price*cart[p.id])).join('\n')+'\n\nTotal de ejemplo: '+money(totalPrice())+' MXN\nPRECIOS TEMPORALES DE EJEMPLO. Confirmar precios reales y disponibilidad.'}
 function sync(){try{localStorage.setItem('casper-pedido-v1',JSON.stringify(cart))}catch{}const items=selected(),units=items.reduce((sum,p)=>sum+cart[p.id],0);$('count').textContent=units;$('total').innerHTML='<small>'+units+' unidades</small>Total estimado: '+money(totalPrice())+' MXN';$('sendOrder').disabled=!units;$('clearCart').disabled=!units;$('orderItems').replaceChildren();if(!units){$('orderItems').innerHTML='<div class="cart-empty"><span aria-hidden="true">✦</span><h3>Tu celebración empieza aquí</h3><p>Agrega tus favoritos del catálogo para armar tu pedido.</p><button class="btn blue" id="continueShopping">EXPLORAR CATÁLOGO ↗</button></div>';$('continueShopping').onclick=()=>{$('cart').close();document.getElementById('catalogo').scrollIntoView({behavior:"smooth"})};return}for(const p of items){const row=document.createElement('div');row.className='order-row';row.innerHTML='<img class="cart-thumb" src="'+p.image+'" alt="" width="74" height="84"><div class="line-info"><strong>'+p.name+'</strong><small>'+money(p.price)+' MXN por unidad</small><small class="line-total">Subtotal: '+money(p.price*cart[p.id])+'</small></div><div class="line-controls"><div class="qty"><button aria-label="Quitar uno de '+p.name+'">−</button><span>'+cart[p.id]+'</span><button aria-label="Agregar uno de '+p.name+'">+</button></div><button class="remove">Eliminar</button></div>';const buttons=row.querySelectorAll('button');buttons[0].onclick=()=>change(p.id,-1);buttons[1].onclick=()=>change(p.id,1);buttons[2].onclick=()=>{delete cart[p.id];sync()};$('orderItems').append(row)}}
 function orderText(){return selected().map(p=>cart[p.id]+' × '+p.name+' | '+money(p.price)+(p.priceUnit?' por '+p.priceUnit:' c/u')+' | Subtotal: '+money(p.price*cart[p.id])).join('\n')+'\n\nTotal estimado: '+money(totalPrice())+' MXN\nConfirma los precios y la disponibilidad antes de completar tu pedido.'}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-pressed',String(t===b)));render()});$('search').oninput=render;$('openCart').onclick=()=>$('cart').showModal();$('closeCart').onclick=()=>$('cart').close();$('clearCart').onclick=()=>{cart={};sync()};$('sendOrder').onclick=()=>{if(!selected().length)return;enviarWhatsApp($('orderRecipient').value,'Hola, quiero consultar este pedido de CASPER:\n\n'+orderText())};
@@ -2142,6 +2609,12 @@ $('quoteForm').onsubmit=e=>{e.preventDefault();const data=new FormData(e.current
 </script></body></html>
 
  
+
+
+
+
+
+
 
 
 
